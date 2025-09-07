@@ -1,0 +1,30 @@
+{
+  "sequence": [
+    {
+      "type": "text",
+      "text": "Привет! Это первое сообщение.",
+      "delay_seconds": 2
+    },
+    {
+      "type": "photo",
+      "url": "https://example.com/image1.jpg",
+      "caption": "Вот картинка",
+      "delay_seconds": 2
+    },
+    {
+      "type": "audio",
+      "url": "https://example.com/audio1.mp3",
+      "caption": "Аудио для вас",
+      "delay_seconds": 2
+    },
+    {
+      "type": "text",
+      "text": "Напоминаю: финальное сообщение придёт завтра в 10:00",
+      "schedule_next_day_time": "10:00",
+      "scheduled_message": {
+        "type": "text",
+        "text": "Это сообщение пришло в назначенное время — доброе утро!"
+      }
+    }
+  ]
+}
